@@ -5,7 +5,7 @@
 var createCounter = function(n) {
     
     return function() {
-       return n++; //Only this line had to be written
+       return n++; //Only this line had to be written, this implementation is known as closure
         
     };
 };
