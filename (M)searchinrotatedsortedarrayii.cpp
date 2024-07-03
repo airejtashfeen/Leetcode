@@ -12,6 +12,7 @@ public:
             int mid = low + (high - low) / 2;
             if (nums[mid] == target) return true;
 
+            //Only this part different from search in rotated sorted array
             if(nums[mid]== nums[low] && nums[mid]==nums[high]){
                 low++, high--;
                 continue;
