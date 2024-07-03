@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+//The main idea here is to identify the sorted half of the array and based on that limit our search space
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
