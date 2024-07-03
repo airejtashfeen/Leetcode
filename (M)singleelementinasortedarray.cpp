@@ -3,7 +3,7 @@
 
 using namespace std;
 
-//Check 'singleelementinsortedarray.png'
+//Check 'singleelementinasortedarray.png'
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& nums) {
