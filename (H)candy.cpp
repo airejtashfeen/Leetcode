@@ -5,6 +5,7 @@
 
 using namespace std;
 
+//CHECK CANDY.PNG FOR EXPLANATION
 class Solution {
 public:
     int candy(vector<int>& ratings) {
