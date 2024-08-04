@@ -7,3 +7,4 @@ FROM
     DailySales
 GROUP BY
     date_id, make_name;
+
